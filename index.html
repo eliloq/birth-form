@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Birthday Year</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+
+      <div class="form">
+        <h3>Profile Form</h3>
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" required/>
+        <br />
+        <label for="age">Age:</label>
+        <input type="text" id="age" required/>
+        <br />
+
+        <label for="month">Birth Month:</label>
+        <select id="month">
+          <option>Farvardin</option>
+          <option>Ordibehesht</option>
+          <option>Khordad</option>
+          <option>Tir</option>
+          <option>Mordad</option>
+          <option>Shahrivar</option>
+          <option>Mehr</option>
+          <option>Aban</option>
+          <option>Azar</option>
+          <option>Dey</option>
+          <option>Bahman</option>
+          <option>Esfand</option>
+        </select>
+
+        <br />
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" required/>
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" required />
+        <br />
+
+        <label for="degree">Degree:</label>
+        <select id="degree">
+          <option>Associate</option>
+          <option >Bachelor</option>
+          <option >Master</option>
+          <option>Doctorate</option>
+          <option >Professional</option>
+        </select>
+
+        <br /><br /><br />
+        <div>
+          <button id="btnSend">Send</button>
+          <button id="btnReset">Reset</button>
+        </div>
+      </div>
+
+      <div class="output">
+        <h3>Result Page</h3>
+        <p>Name: <span></span></p>
+        <p>Birth Year: <span></span></p>
+        <p>Birth Month: <span></span></p>
+        <p>Phone Number: <span></span></p>
+        <p>Email: <span></span></p>
+        <p>Degree: <span></span></p>
+      </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
